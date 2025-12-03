@@ -11,6 +11,7 @@ de la siguiente manera
 
 ## Funcionamiento
 
-Al ejecutar el script trata de detectar la memoria, en el caso que no la detecte entre
-en espera hasta que la detecte, haciendo que los archivos esten solo para lectura,
-en el caso que se detecte la memoria da acceso y se termina su ejecucion
+Al ejecutar el script monitore cada 3 segundos si se encuentra la llave con la memoria, 
+en caso de que no, modifica los archivos para solo lectura, permitiendo introducir la memoria y
+detectarla en tiempo real, una vez detectada permite escritura tambien, en caso de que vuelva a retirar 
+la memoria regresa a solo lectura, esta en constante monitoreo
